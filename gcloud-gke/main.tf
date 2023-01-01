@@ -7,9 +7,7 @@ terraform {
   }
 }
 
-variable "project" {
-  project =  4716399343
-}
+variable "project" {}
 variable "region" {
   default = "us-central1"
 }
