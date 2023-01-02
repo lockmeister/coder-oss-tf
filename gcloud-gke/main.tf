@@ -9,7 +9,8 @@ terraform {
 
 variable "project" {}
 variable "region" {
-  default = "us-central1"
+  #default = "us-central1"
+  default = "australia-southeast1"
 }
 variable "coder_version" {
   default = "0.13.6"
